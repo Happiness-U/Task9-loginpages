@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  min-height: 100vh;
+}
+header {
+  background-image: url(images/wedding-1770860_1920.jpg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 90%;
+  display: block;
+  max-width: 980px;
+  margin: 0 auto;
+}
+nav.mainMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  background-color: #33313f;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.logo h3 {
+  font-size: 0.75rem;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  
+align-self: center;
+}
+li {
+  display: inline;
+  margin: 15px;
+}
+a:hover{
+  color: rgb(255, 174, 0);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.bg {
+ background-color:  rgb(255, 174, 0);
+ border-radius: 2px;
+ padding: 5px;
+ text-align: center;
+ width: 5%;
+}
+.bg:hover {
+  background-color: antiquewhite;
+  color: rgb(255, 174, 0);
+}
+.col{
+    color:rgb(255, 174, 0);
+}
+.col:hover {
+  color: #fff;
+  
+}
+.maincontent {
+    margin-top: 150px;
+    text-align: center;
+}
+.fa-youtube{
+    color: rgb(255, 174, 0);
+    font-size: 3rem;
+    cursor: pointer;
+    padding: 50px;
+}
+.maincontent,
+p{
+  color: rgb(255, 248, 248);
+  font-weight: 500;
+}
+.maincontent h1 {
+  color: white;
+  font-size: 900;
+  text-transform: uppercase;
+  padding: 50px;
+}
+
+table {
+  background-color: #110d0de1;
+  width: 100%;
+
+}
+th, td {
+  text-align: left;
+  color: rgb(238, 231, 231);
+  padding: 5px;
+  font-size: 0.78rem;
+ 
+}
+ td > a {
+  opacity:0.5;
+  font-size: 0.65rem;
+}
+ 
+.btn{
+ position: absolute;
+ background-color:  rgb(255, 174, 0);
+ border-radius: 20px;
+ padding: 10px;
+ margin-bottom: 50%;
+ margin-left: -6rem;
+ width: 5%;
+}
+.btn:hover{
+  background-color: wheat;
+  color: #0e0e0e;
+}
+.footer{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding: 80px;
+  
+
+  
+}
+ .fa-chart-line{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: rgb(255, 174, 0, 0.513);
+    font-size: 2rem;
+    padding: 10px
+   
+  }
+  .fa-route{
+    margin-left: 8rem;
+    margin-right: 8rem; 
+    color: rgba(255, 174, 0, 0.513);
+    font-size: 2rem;
+    padding: 10px
+    
+  }
+  .op h5{
+    display: flex;
+    color: aqua;
+    font-size: 5rem;
+    opacity: 0.2;
+  }
+  h4 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 8px;
+  }
+h6 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 0.55rem;
+  opacity: 0.5;
+  
+}
+
+

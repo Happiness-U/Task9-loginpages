@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background-image: url(images/highway.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+.container {
+  background-color: rgba(20, 19, 19, 0.842);
+  font-family: Tahoma, Courier, monospace;
+  font-size: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10%;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+form {
+  width: 85%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 2.2rem;
+  font-family: Tahoma;
+  color: tomato;
+}
+h2 {
+  font-size: 1.5rem;
+  font-family: Tahoma;
+  margin-top: -8%;
+}
+h3 {
+  font-size: 2rem;
+  font-family: Tahoma;
+  padding: 2px;
+  margin: 10px;
+}
+.input-wrap {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.input-wrap input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex: 1;
+  display: inline-block;
+}
+.input-wrap .icon {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #888;
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 18px;
+  line-height: 15px;
+}
+
+input[type="submit"] {
+  background-color: rgb(14, 197, 151);
+  color: white !important;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgb(9, 138, 105);
+}
+.border-separator {
+  display: flex;
+  align-items: center;
+  border-width: 10px white;
+}
+.border-separator > h4 {
+  padding: 10px;
+  font-size: 1rem;
+}
+.border-separator > hr {
+  flex: 1;
+  height: 1px;
+}
+p {
+  font-size: 15px;
+}
+a {
+  color: rgb(12, 193, 209);
+}
+.fa-smile-beam {
+  color: rgb(255, 218, 9);
+  font-size: 1.5rem;
+}
+.wrap3 {
+  display: flex;
+}
+.wrap3 > a {
+  flex: 1;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.wrap3 > a span {
+  flex: 1;
+}
+.wrap3 > a i {
+  display: inline-block;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.wrap3 > a:nth-child(1) {
+  background: tomato;
+}
+.wrap3 > a:hover{
+  color: rgba(126, 126, 121, 0.692);
+}
+.wrap3 > a:nth-child(2) {
+  background: rgb(12, 193, 209);
+  margin: 0 10px;
+}
+.wrap3 > a:nth-child(3) {
+  background: rgb(43, 74, 146);
+}

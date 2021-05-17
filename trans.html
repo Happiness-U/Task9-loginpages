@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trans logindiv</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    body {
+      background-color: rgba(202, 214, 210, 0.863);
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      position: relative;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .containerr {
+      background-color: rgba(22, 145, 149, 0.411);
+      color: white;
+      margin-top: 10%;
+      width: 100%;
+      max-width: 350px;
+      padding: 50px;
+      height: 530px;
+      text-align: center;
+    }
+    ::placeholder{
+        color: #fff;
+    }
+    input {
+      background: none;
+      display: inline-block;
+      color: white;
+      outline: none;
+      text-align: center;
+      padding: 15px;
+      margin: 1px;
+      border-style: none;
+    }
+    .cor1,.cor2,
+    .cor3{
+      border-style: solid;
+      border-color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+    }
+    .cor1 input,.cor2 input,
+    .cor3 input{
+      flex: 1;
+    }
+    .cor1 i,.cor2 i,
+    .cor3 i{
+      display: inline-block;
+      line-height: 1rem;
+    }
+    .cor3,
+    .cor1{  
+        border-left:none ;
+        border-bottom-right-radius:2.5rem;
+        border-top-right-radius: 2.5rem;
+        margin-right: -1.45rem;
+    }
+    .cor2{
+    
+        border-right:none ;
+        border-bottom-left-radius:2.5rem;
+        border-top-left-radius: 2.5rem;
+        margin-left: -1.45rem;
+        margin-top: -3px;
+    }
+    
+    .cor3{
+        
+        margin-top: -3px;
+    }
+
+    .containerr a {
+      display: flex;
+      padding: 10px;
+      border-radius: 20px;
+      width: 17rem;
+      margin: 20px;
+      justify-content: center;
+      border-style: solid;
+      color: rgba(255, 249, 249, 0.89);
+    }
+
+    .cor4 {
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 1;
+      font-size: 20px;
+      padding-top: 15%;
+    }
+  </style>
+  <body>
+    <div class="containerr">
+      <h1>Login</h1>
+      <form class="form">
+        <div class="cor">
+          <div class="cor1">
+            <input type="text" placeholder="name@mail.com" />
+            <i class="far fa-envelope"></i><br />
+          </div>
+          <div class="cor2">
+            <i class="fas fa-unlock-alt"></i>
+            <input type="password" placeholder="********" /><br />
+          </div>
+          <div class="cor3"><input type="submit" value="Submit" /><br /></div>
+          <div class="rem">
+            <label for="Remember">
+              <input type="checkbox" name="remember" id="Remember" />
+              Remember
+            </label>
+          </div>
+
+          <a href="">Forgot</a><br />
+          <a href="">Join Us!</a>
+
+          <div class="cor4">
+            <i class="fas fa-share"></i>
+            <i class="fab fa-buromobelexperte"></i>
+            <i class="fas fa-align-justify"></i>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
