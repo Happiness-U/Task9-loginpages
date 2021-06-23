@@ -60,15 +60,18 @@
     justify-content: space-between;
     margin: 15px 0;  
 }
-.con{
-    background-color: rgb(0, 119, 255);
+.con {
+    padding: 5px;
+    text-decoration: none;
     color: white;
-    border: none;
+    background-color: rgb(0, 119, 255);
+    
 }
-.containers a {
+.two a {
     display: flex;
     color: black;
     padding: 1px;
+    
     
 }
 </style>
@@ -89,10 +92,12 @@
                 <input type="checkbox" name="remeberme" id="RememberMe">
                 <span>Remember Me</span>
             </label>
-            <input class="con" type="submit" value="Log in" /> 
+            <a href="/" class="con" >Log in</a>  
         </div>
+        <div class="two">
          <a href="#">Lose your password?</a><br>
          <a href="#">Sign Up </a>
+        </div>
     </form>
     </div>
 </body>

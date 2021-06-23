@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <title>TypeWriter</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Iconsolata:wght@500$display=swap');
+
+    body {
+        padding: 20px;
+        font-family: 'Iconsolata', monospace;
+        background-color: red;
+        color: white;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-right: 4px solid white;
+        font-size: 180%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .animation{
+        animation: typewriter 4s steps(15) 1s 1 normal both, 
+                    blinkCursor 500ms steps(15) infinite;
+    }
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 24em;
+        }
+    }
+    @keyframes blinkcursor {
+        from {
+            border-right-color: white;
+        }
+        to {
+            border-right-color: transparent;
+        }
+    }
+    i {
+        color:white
+    }
+</style>
+<body>
+    <p class="text animation"> My name is Happiness, i'm learning coding<i class="fas fa-heart"></i></p>
+</body>
+</html> 

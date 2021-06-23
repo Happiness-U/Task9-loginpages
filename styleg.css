@@ -3,27 +3,36 @@
     padding: 0;
     margin: 0;
 }
-.wrapper {
+.section1 {
    text-align: center;
   
     margin: 0 auto;
   }
   .back{
-   background-image: url(images/welcome.jpg);   
+   background-image: url(images/welcome.jpg);
+  
   }
 div.log {
     display: flex;
-    margin-right: 10%;
   
 }
-nav.headmenu {
-    justify-content: center; 
+img.log{
     height: 100px;
-    max-width: 100 ;
+    width: auto;
+}
+
+nav.headmenu {
+    height: 100px;
+    width: 100%;
     background-color: rgba(40, 109, 136, 0.623);
     font-family: tahoma;
+}
+nav.headmenu .container {
     display: flex;
-   
+    justify-content: space-between;
+    max-width: 1250px;
+    width: 80%;
+    margin: 0 auto;
 }
 a {
     color:rgb(255, 255, 255);
@@ -35,7 +44,7 @@ ul {
     list-style-type: none;
     padding: 0;
     align-self: center;
-   color: rgb(179, 200, 209);
+    color: rgb(179, 200, 209);
   }
   
   li {
@@ -46,7 +55,6 @@ ul {
 #giv {
     display: inline-block;
     padding: 6px 5px;
-    margin-left: 10rem;
     border-radius: 5px;
     background-color:rgb(77, 176, 206)
 } 
@@ -55,39 +63,50 @@ ul {
    
 }
 #hov:hover{
-
     border-bottom: 2px solid white;
-    
+    padding: 35px 0;    
 }
+.dropdown
 .dropbtn{
-    background-color: turquoise;
-    color: white;
+    background-color: inherit;
+    color:rgb(255, 255, 255);
+    font-family: inherit;
     padding: 16px;
     font-size: 16px;
     border: none;
+    margin-left: 10px;
+
+}
+
+.dropbtn a {
+    background-color: rgba(40, 109, 136, 0.623);  
 }
 .dropdown{
     position: relative;
     display: inline-block;
 }
-.dropdown-content{
+.dropdown-content {
     display: none;
     position: absolute;
-    color: red;
-    min-width: 160px;
+    background-color: white;
+    min-width: 230px;
     z-index: 1;
 }
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     display: block;
+    text-align: left;
+    font-family: tahoma;
+    font-size: 1rem;
 }
-.dropdown-content a:hover{background-color: white;}
+.dropdown-content a:hover{
+    color: rgb(77, 176, 206);
+}
 
 .dropdown:hover .dropdown-content{display: block;}
 
-.dropdown:hover .dropbtn {background-color: rgb(40, 243, 233);}
 .writeup{
     margin-top: 10%;
    
@@ -106,9 +125,10 @@ h5{
     font-size: 20px;
     padding: 10px;
 }
-#pin {
+
+#pin{
     display: inline-block;
-    margin: 70px;
+    margin: 70px 25px;
     color: white;
     text-transform: uppercase;
     font-family: Arial;
@@ -122,7 +142,191 @@ h5{
     border: 2px solid white;
     background-color: rgb(151, 148, 151);
 }
-#hep {
-     text-transform: capitalize;
-     
+#pep {
+    font-weight: bolder; 
+    font-size: large; 
+    
+}
+#peee i {
+font-size: 30px;
+color: white;
+margin-right: 7px;
+cursor: pointer;
+}
+#peee i:hover{
+    color: rgb(77, 176, 206);
+}
+.chev > i {
+    
+    color: white;
+    margin: 100px 0;
+    padding: 45px 0;
+    font-size: larger;
+}
+.chev > i:hover{
+    border: 1px solid white;
+    padding: 10px ;
+    border-radius: 100px;   
+}
+#welcome{
+   text-align: left; 
+   padding:7% 25%; 
+}
+#welcome h3{
+    color: rgb(77, 176, 206);  
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+  
+}
+
+hr.solid {
+    width: 150px;
+    border-color: rgba(255, 68, 0, 0.486);
+    display: flex;
+    
+}
+.line{
+    position: absolute;
+    text-align: center;
+    left: 31%;
+    margin-top: -10px;
+}
+#welcome > h2{
+  font-size: 2rem; 
+  text-transform: uppercase;
+  font-family:tahoma ;
+  color: rgba(17, 17, 17, 0.698);
+  letter-spacing: 4px;
+}
+#welcome p {
+    padding: 5rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.00rem;
+}
+.row{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: -7%;
+    background-color: rgba(231, 226, 226, 0.616);    
+    flex-direction: column;
+    padding: 15px 0;
+} 
+.row .col1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2rem;
+    font-size: 1rem;
+    padding: 10px
+    
+}
+.row .col2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2rem;
+    font-size: 1rem;
+    padding: 10px
+    
+}
+.row .col2 {
+    background-color: #fff;
+}
+.row .col3 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2rem;
+    font-size: 1rem;
+    padding: 10px
+}
+.row [type="submit"] {
+    font-size: 1rem;
+    padding: 10px 14px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(77, 176, 206);
+  }
+
+  .mobile-only{
+      display: inline-block;
+      position: relative;
+  }
+  #MainMenu{
+      /* display: none; */
+      position: absolute;
+      width: 100%;
+      padding: 15px;
+      background-color: white;
+      color: #000!important;
+      min-height: 100vh;
+      top: 100px;
+      left: 0;
+  }
+  
+  #MainMenu li{
+    display: block;
+    padding: 15px;
+
+}
+  
+  #MainMenu li button,
+  #MainMenu li a{
+    color: #000!important;
+    font-weight: bolder;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+  .mobile-only{
+    display: none;
+  }
+  #MainMenu{
+      display: block;
+      position: relative;
+      width: auto;
+      padding: unset;
+      background-color: unset;
+      min-height: auto;
+      top: unset;
+      left: unset;
+      z-index: unset;
+
+  }
+  
+  #MainMenu li{
+    display: unset;
+    padding: unset;
+
+}
+  
+#MainMenu li button,
+#MainMenu li a{
+  color: #fff!important;
+  font-weight: bolder;
+}
+
+.row{
+    flex-direction: row;
+    /* padding: 15px; */
+} 
+
+.row .col1,
+.row .col2 {
+    border-right: 1px solid #000;
+    background-color: transparent;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
